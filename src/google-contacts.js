@@ -11,7 +11,7 @@ import ButtonContent from './button-content'
 import { extractTitleFromEntry, extractEmailFromEntry, extractPhoneNumberFromEntry } from './utils'
 
 const SCOPE = 'https://www.googleapis.com/auth/contacts.readonly'
-const MAX_RESULTS = '999' // TODO Make this parametable or paginate
+const MAX_RESULTS = '5' // TODO Make this parametable or paginate
 
 class GoogleContacts extends Component {
   constructor(props) {
